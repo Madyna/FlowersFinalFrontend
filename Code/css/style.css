@@ -245,3 +245,296 @@ input[type="search"]::-webkit-search-results-decoration {
   font-size: 18px;
   padding: 65px 0 20px 20px;
 }
+
+.main_delivery_at_flowers_container {
+  padding: 50px 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_title_delivery_block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title_delivery h1 {
+  font-size: 31px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #596068;
+}
+
+.view_all_delivery {
+  display: flex;
+  align-items: center;
+}
+
+.view_all_delivery:hover {
+  text-decoration: underline;
+}
+
+.view_all_delivery h1 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #596068;
+}
+
+.main_selections_at_delivery_flowers {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.block_flower_delivery {
+  border: 2px solid #f8f8f8;
+  width: 253px;
+}
+
+.image_block_flower_delivery {
+  width: 253px;
+  height: 253px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block_flower_delivery h1 {
+  font-size: 18px;
+  color: #596068;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin: 15px 0;
+  padding: 0 7px;
+}
+
+.block_flower_delivery a {
+  color: #596068;
+}
+
+.block_flower_delivery a:hover {
+  text-decoration: underline;
+}
+
+.block_flower_delivery hr {
+  background-color: #f7d1dd;
+  width: 64px;
+  height: 2px;
+  text-align: center;
+  border: none;
+}
+
+.block_flower_delivery p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #596068;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.buy_diff_do_flower_delivery {
+  display: flex;
+}
+
+.buy_delivery_button {
+  cursor: pointer;
+  width: 80%;
+  background-color: #f1f1f1;
+  color: #596068;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.like_delivery_button {
+  cursor: pointer;
+  width: 20%;
+  background-color: #FFF;
+  color: #596068;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.main_control_order_prior_to_delivery {
+  display: flex;
+}
+
+.image_block_prior_to_delivery {
+  width: 50%;
+  display: flex;
+}
+
+.flower_background_image_block {
+  position: absolute;
+  margin: 75px 0 0 50px;
+}
+
+.phone_background_image_block {
+  position: absolute;
+  margin-left: 300px;
+}
+
+.info_block_prior_to_delivery {
+  width: 50%;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 150px;
+}
+
+.title_info_block_prior_to_delivery hr {
+  border: none;
+  width: 64px;
+  background-color: #f7d1dd;
+  height: 2px;
+}
+
+.title_info_block_prior_to_delivery h1 {
+  text-align: center;
+  font-size: 31px;
+  color: #596068;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.title_info_block_prior_to_delivery p {
+  font-size: 18px;
+  color: #98a2ad;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main_info_block_prior_to_delivery {
+  display: flex;
+  flex-direction: column;
+}
+
+.block_prior_to_delivery {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.number_block_prior_to_delivery {
+  width: 45px;
+  height: 45px;
+  background-color: #f7d1dd;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number_block_prior_to_delivery h1 {
+  color: #596068;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.title_prior_to_delivery {
+  width: calc(100% - 45px);
+  padding: 0 25px 0 27px;
+}
+
+.title_prior_to_delivery h1 {
+  font-size: 18px;
+  color: #596068;
+  font-weight: 400;
+}
+
+
+/* ========== FOOTER BLOCK ========== */
+
+
+.main_footer_block_about_company {
+  padding: 50px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_company_block {
+  width: 45%;
+}
+
+.about_company_block .hr {
+  width: 64px;
+  height: 2px;
+  border: none;
+  background-color: #f7d1dd;
+}
+
+.about_company_block h1 {
+  font-size: 31px;
+  color: #596068;
+  margin: 20px 0;
+}
+
+.about_company_block p {
+  font-size: 15px;
+  color: #737c86;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.second_footer_block {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.our_guarantee_block .hr {
+  display: flex;
+  justify-content: flex-start;
+  width: 64px;
+  height: 2px;
+  border: none;
+  background-color: #f7d1dd;
+}
+
+.our_guarantee_block h1 {
+  font-size: 31px;
+  color: #596068;
+  margin-top: 20px;
+}
+
+.our_guarantee_block p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #737c86;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.payment_method_block {
+  margin-top: 50px;
+}
+
+.payment_method_block .hr {
+  width: 64px;
+  height: 2px;
+  border: none;
+  background-color: #f7d1dd;
+}
+
+.payment_method_block h1 {
+  font-size: 31px;
+  color: #596068;
+  margin-top: 20px;
+}
+
+.payment_method_block p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #737c86;
+  font-weight: 400;
+  line-height: 1.2;
+}
