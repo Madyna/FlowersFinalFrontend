@@ -1,0 +1,247 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+a {
+    color: #4B0082;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* GET STARTED */
+
+
+
+/* ========== HEADER BLOCK ========== */
+
+header {
+  padding: 0 120px;
+  border-bottom: .5px solid #dbdbdb;
+}
+
+.header_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.main_page_categories_main_block {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.main_page_categories_main_block a {
+  margin-right: 20px;
+  color: #596068;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.main_page_categories_main_block a:hover {
+  text-decoration: underline;
+}
+
+.main_logo_header_block {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_diff_info_header_block {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #596068;
+}
+
+.city_header_diif, .whatsapp_header_diff {
+  display: flex;
+  align-items: center;
+}
+
+.city_header_diif i, .whatsapp_header_diff i {
+  margin-right: 5px;
+}
+
+.whatsapp_header_diff {
+  margin-left: 20px;
+}
+
+
+
+/* ========== SECTION HEADER ========== */
+
+
+.section_header_container {
+  padding: 10px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_filter_search_section_header_block {
+  display: flex;
+}
+
+.type_bouquets_filter {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 10px;
+  background-color: #ffe8ef;
+  color: #596068;
+}
+
+.type_bouquets_filter i {
+  margin-right: 10px;
+}
+
+.search_filter {
+  display: flex;
+}
+
+.search_filter input {
+  width: 300px;
+  border: none;
+  background-color: #f8f8f8;
+  padding-left: 10px;
+  outline: 0;
+  appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+.search_filter input[placeholder] {
+  font-size: 15px;
+}
+
+.search_block {
+  cursor: pointer;
+  background-color: #ffe8ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.main_favourites_section_header_block {
+  display: flex;
+  align-items: center;
+}
+
+.favourites_favourites {
+  display: flex;
+  align-items: center;
+  color: #596068;
+  margin-right: 20px;
+}
+
+.favourites_favourites i {
+  margin-right: 10px;
+}
+
+.count_of_favourites {
+  position: absolute;
+  margin: 0 0 20px 10px;
+  background-color: #e8307e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  color: #FFF;
+  font-size: 13px;
+}
+
+.cart_favourites {
+  display: flex;
+  align-items: center;
+  color: #596068;
+}
+
+.cart_favourites i {
+  margin-right: 10px;
+}
+
+.main_section_selection_flowers {
+  padding: 50px 120px;
+  background-color: #f8f8f8;
+}
+
+.main_afisha_flowers_block {
+  width: 100%;
+  display: flex;
+}
+
+.main_large_flower_block a img {
+  width: 540px;
+  height: 385px;
+}
+
+.main_small_flowers_block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_small_flowers_block a {
+  width: 265px;
+  height: 115px;
+  margin: 0 0 20px 19px;
+}
+
+.main_small_flowers_block a h1 {
+  font-weight: 400;
+  width: 50%;
+  color: #596068;
+  font-size: 18px;
+  padding: 65px 0 20px 20px;
+}
