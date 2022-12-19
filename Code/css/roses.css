@@ -244,7 +244,6 @@ header {
   }
 
   .filter_block {
-    width: 100%;
     background-color: #f1f1f1;
     margin-top: 30px;
     padding: 20px 0;
@@ -576,4 +575,289 @@ header {
     color: #737c86;
     font-weight: 400;
     line-height: 1.2;
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+
+    header {
+      padding: 0 50px;
+    }
+  
+    .header_container {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    .main_page_categories_main_block {
+      width: 0%;
+      align-items: flex-start;
+    }
+  
+    .main_logo_header_block {
+      width: 100%;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  
+    .main_diff_info_header_block {
+      width: 100%;
+    }
+  
+    .section_header_container {
+      padding: 10px 50px;
+      flex-direction: column;
+    }
+  
+    .type_bouquets_filter i {
+      padding-right: -5px;
+      margin-left: 10px;
+    }
+  
+    .type_bouquets_filter h1 {
+      display: none;
+    }
+  
+    .search_filter input {
+      width: 500px;
+    }
+  
+    .main_favourites_section_header_block {
+      margin: 20px 0;
+    }
+
+    .roadmap_to_this_page {
+        padding: 20px 50px;
+    }
+    
+    .main_section_filter_block {
+        padding: 50px;
+    }
+
+    .main_filter_block p {
+        margin-left: 30px;
+    }
+  
+    .main_afisha_flowers_block {
+      flex-direction: column;
+    }
+  
+    .main_large_flower_block a img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .main_small_flowers_block {
+      margin-top: 50px;
+    }
+  
+    .main_small_flowers_block a {
+      width: 310px;
+      margin: 20px 10px;
+    }
+  
+    .main_delivery_at_flowers_container {
+      padding: 50px;
+    }
+  
+    .block_flower_delivery {
+      width: 320px;
+      margin-top: 30px;
+    }
+  
+    .image_block_flower_delivery {
+      width: 320px;
+      height: 320px;
+    }
+  
+    .flower_background_image_block {
+      margin: 75px 0 0 100px;
+    }
+  
+    .phone_background_image_block {
+      margin-left: 350px;
+    }
+  
+    .main_control_order_prior_to_delivery {
+      flex-direction: column;
+    }
+  
+    .image_block_prior_to_delivery {
+      width: 0;
+    }
+  
+    .info_block_prior_to_delivery {
+        width: calc(100% - 150px);
+        padding: 650px 100px 50px 50px;
+    }
+
+    .main_info_block_prior_to_delivery {
+        margin: 0 50px 0 0;
+    }
+
+    .title_info_block_prior_to_delivery {
+        text-align: center;
+        margin-left: 50px;
+    }
+  
+    .main_footer_block_about_company {
+        padding: 50px;
+    }
+  
+  }
+  
+  
+  @media only screen and (max-width: 425px) {
+  
+    header {
+      padding: 0 10px;
+    }
+  
+    .header_container {
+      width: 100%;
+    }
+  
+    .main_page_categories_main_block {
+      width: 0%;
+      align-items: flex-start;
+    }
+  
+    .main_logo_header_block {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .main_diff_info_header_block {
+      display: none;
+    }
+  
+    .section_header_container {
+      padding: 20px;
+    }
+  
+    .search_filter input {
+      width: 280px;
+    }
+  
+    .main_section_selection_flowers {
+      padding: 50px 20px;
+    }
+  
+    .main_small_flowers_block {
+      margin-top: 10px;
+    }
+  
+    .main_small_flowers_block a {
+      width: 100%;
+      height: 115px;
+      margin: 20px 0 0 0;
+    }
+
+    
+
+    .main_favourites_section_header_block {
+        margin: 20px 0;
+      }
+  
+    .roadmap_to_this_page {
+        padding: 20px 50px;
+    }
+      
+    .main_section_filter_block {
+        padding: 50px 20px;
+    }
+
+    .main_filter_block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main_filter_block p {
+        margin-left: 20px;
+    }
+  
+    .main_delivery_at_flowers_container {
+      padding: 20px;
+    }
+  
+    .main_selections_at_delivery_flowers {
+      margin: 0;
+    }
+  
+    .block_flower_delivery {
+      width: 180px;
+      margin-top: 30px;
+    }
+  
+    .image_block_flower_delivery {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .flower_background_image_block {
+      left: -200px;
+    }
+  
+    .phone_background_image_block {
+      margin-left: 40px;
+    }
+  
+    .title_info_block_prior_to_delivery {
+      margin-left: 50px;
+    }
+  
+    .info_block_prior_to_delivery {
+      width: calc(100% - 80px);
+      padding: 650px 60px 50px 15px;
+    }
+  
+    .main_footer_block_about_company {
+      padding: 50px 20px;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  
+    .about_company_block {
+      width: 100%;
+    }
+  
+    .second_footer_block {
+      margin-top: 50px;
+      width: 100%;
+    }
+  
+  }
+  
+  
+  @media only screen and (max-width: 375px) {
+  
+    header {
+      padding: 0 10px;
+    }
+  
+    .search_filter input {
+      width: 230px;
+    }
+  
+    .block_flower_delivery {
+      width: 150px;
+      margin-top: 30px;
+    }
+  
+    .image_block_flower_delivery {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .flower_background_image_block {
+      left: -150px;
+    }
+  
+    .phone_background_image_block {
+      margin-left: 20px;
+    }
+  
   }
